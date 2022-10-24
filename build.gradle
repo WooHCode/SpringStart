@@ -8,14 +8,23 @@ group = 'com.containstudy'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
 repositories {
 	mavenCentral()
 }
 
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter'
-	implementation 'org.springframework.boot:spring-boot-starter-aop' //AOP추가
+	implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'
+	implementation 'org.springframework.boot:spring-boot-starter-aop'
+	compileOnly 'org.projectlombok:lombok'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+	runtimeOnly 'org.postgresql:postgresql'
+	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
