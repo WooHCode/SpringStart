@@ -143,7 +143,7 @@ new 키워드를 사용하지 않고 스프링 컨테이너에 해당 클래스�
 ### * 기억해야 할 메서드 - addAttribute, 특정 이름에 대해 값을 설정
 - ex) Model addAttribute(String name, Object value)
 
----
+----
 
 4. 요청 파라미터(Request Parameter)
 
