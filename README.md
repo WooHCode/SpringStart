@@ -12,4 +12,4 @@
 이 Repository에 업로드하는 코드는 최대한 코드에 대한 주석을 많이 달아 
 나중에 다시 보면서 공부할 수 있는 나의 복습노트로 활용할 것이다.
 
-개념에 대한 정리는 <a href=""> 여기에 정리되어 있다.
+개념에 대한 정리는 <a href="https://github.com/WooHCode/SpringStart/blob/master/Idea.md"> 여기에 정리되어 있다.
